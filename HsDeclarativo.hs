@@ -31,7 +31,7 @@ main = do
 
   let sorted = sortStudents xs
 
-  putStrLn "Ordenando estudiantes (nota descendente, nombre ascendente en empate):"
+  putStrLn "Ordenando estudiantes (nota descendente con nombre ascendente si hay empate):"
   mapM_ printStudent sorted
 
   performGC
@@ -43,6 +43,7 @@ main = do
       cpuSec  = fromIntegral (endCPU - startCPU) / 1e12 :: Double
 
   putStrLn ""
-  printf "wall time: %.6f s\n" wallSec
-  printf "cpu  time: %.6f s\n" cpuSec
+  printf "Tiempo total: %.6f s\n" wallSec
+  printf "Tiempo de la cpu: %.6f s\n" cpuSec
+
 
