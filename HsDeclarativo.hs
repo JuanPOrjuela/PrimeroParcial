@@ -15,12 +15,12 @@ printStudent (Student n g) = putStrLn (n ++ " - " ++ show g)
 
 sampleStudents :: [Student]
 sampleStudents =
-  [ Student "ana"    85
-  , Student "carlos" 92
-  , Student "beatriz"85
-  , Student "diana"  92
+  [ Student "Juan"    85
+  , Student "Pablo" 92
+  , Student "Natalia"85
+  , Student "Angel"  92
   , Student "alan"   70
-  , Student "beto"   85
+  , Student "Karol"   85
   ]
 
 main :: IO ()
@@ -45,3 +45,4 @@ main = do
   putStrLn ""
   printf "wall time: %.6f s\n" wallSec
   printf "cpu  time: %.6f s\n" cpuSec
+
