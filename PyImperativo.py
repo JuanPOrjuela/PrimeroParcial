@@ -4,12 +4,12 @@ import tracemalloc
 import gc
 
 students = [
-    {"name": "ana",     "grade": 85},
-    {"name": "carlos",  "grade": 92},
-    {"name": "beatriz", "grade": 85},
-    {"name": "diana",   "grade": 92},
-    {"name": "alan",    "grade": 70},
-    {"name": "beto",    "grade": 85},
+    {"name": "Juan",     "grade": 85},
+    {"name": "Carlos",  "grade": 92},
+    {"name": "Pablo", "grade": 85},
+    {"name": "Natalia",   "grade": 92},
+    {"name": "Alan",    "grade": 70},
+    {"name": "Karol",    "grade": 85},
 ]
 
 def is_better(a, b):
@@ -70,3 +70,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
